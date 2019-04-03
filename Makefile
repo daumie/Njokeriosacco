@@ -8,5 +8,5 @@ start:
 
 test:
 	@ echo "Running tests"
-	@ python manage.py test Espace/api/tests
+	@ docker-compose run web python manage.py test Espace/api/tests
 	
